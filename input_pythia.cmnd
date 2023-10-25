@@ -1,0 +1,41 @@
+!! Beams
+Beams:idA = 2212                       
+Beams:idB = 2212
+!! Beams:eCM = 7000.     Settings antigas                                    
+Beams:eCM = 100000.
+
+!! Event !!
+Main:numberOfEvents = 100000
+
+
+
+Tune:pp = 5                            
+HadronLevel:all = on
+PartonLevel:ISR = on
+PartonLevel:FSR = on
+PartonLevel:MPI = off
+PartonLevel:FSRinProcess = on
+PartonLevel:FSRinResonances = on
+PartonLevel:Remnants = on
+
+
+
+!! Phase space !!
+PhaseSpace:pTHatMin = 800.
+!! PhaseSpace:pTHatMin = 400.
+PhaseSpace:PtHatMax = -1.
+
+!! Display information !!
+Next:numberShowEvent = 1          
+Next:numberCount = 100
+
+!! switch on processes !!
+HardQCD:all=on
+
+!Parton showers settings
+PartonShowers:model   = 2 ! 1:old showers, 2:vincia, 3:dire
+
+!! Random number !!
+Random:setSeed = on
+Random:seed = 10
+
